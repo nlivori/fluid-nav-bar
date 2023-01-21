@@ -32,10 +32,18 @@ class FluidNavBarStyle with Diagnosticable {
   /// Icons color when inactivated
   final Color? iconUnselectedForegroundColor;
 
+  /// Stroke border color
+  final Color? strokeBorderColor;
+
+  /// Hos thick is the stroke
+  final double? strokeThickness;
+
   const FluidNavBarStyle({
     this.barBackgroundColor,
     this.iconBackgroundColor,
     this.iconSelectedForegroundColor,
     this.iconUnselectedForegroundColor,
+    this.strokeBorderColor,
+    this.strokeThickness,
   });
 }
